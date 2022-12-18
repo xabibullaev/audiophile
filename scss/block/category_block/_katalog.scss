@@ -1,0 +1,46 @@
+.katalog {
+  &__list {
+    position: relative;
+    margin-top: 200px;
+    display: flex;
+    column-gap: 30px;
+  }
+
+  &__item {
+    width: 350px;
+    height: 204px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f1f1f1;
+    border-radius: 8px;
+  }
+  &__links {
+    display: flex;
+    align-items: center;
+    column-gap: 13px;
+  }
+  &__img {
+    position: absolute;
+    top: -80px;
+    height: 160px;
+    width: 122px;
+  }
+  &__title {
+    padding-top: 116px;
+
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 1.28571px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 15px;
+  }
+  &__link {
+    @include shop;
+  }
+}

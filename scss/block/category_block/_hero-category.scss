@@ -1,0 +1,17 @@
+.section__hero {
+  background-color: $BlackSmoke;
+}
+.hero {
+  padding: 98px;
+  &__title--category {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+
+    text-align: center;
+    letter-spacing: 1.42857px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+}

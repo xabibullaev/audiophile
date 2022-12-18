@@ -1,0 +1,38 @@
+.header {
+  background-color: $Black;
+  padding: 35px 0;
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #ffffff;
+  }
+  &__content {
+    display: flex;
+    align-items: center;
+    gap: 197px;
+  }
+  &__list {
+    display: flex;
+    gap: 34px;
+  }
+  &__link {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+  &__link:hover {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #d87d4a;
+  }
+  &__hr {
+    opacity: 0.5;
+    margin-top: 36px;
+  }
+}

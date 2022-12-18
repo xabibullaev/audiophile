@@ -1,0 +1,38 @@
+.bring {
+  margin-top: 160px;
+  &__box {
+    display: flex;
+    column-gap: 125px;
+  }
+  &__content {
+    margin-top: 180px;
+    width: 445px;
+  }
+  &__title {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.42857px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 32px;
+  }
+  &__orange {
+    color: #d87d4a;
+  }
+  &__text {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  &__img {
+    border-radius: 5px;
+  }
+}

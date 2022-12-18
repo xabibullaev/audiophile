@@ -1,0 +1,62 @@
+.headphones {
+  &__item {
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+    column-gap: 120px;
+  }
+  &__img {
+    width: 50%;
+    background: #f1f1f1;
+    border-radius: 8px;
+    text-align: center;
+    padding: 65px 95px;
+  }
+  &__logo {
+    width: 350px;
+    height: 386px;
+  }
+  &__content {
+    width: 50%;
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+
+    color: #d87d4a;
+  }
+  &__header {
+    width: 80%;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 16px;
+
+    letter-spacing: 1.42857px;
+    text-transform: uppercase;
+
+    color: #000000;
+  }
+  &__subtext {
+    width: 80%;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+
+    margin: 32px 0 40px;
+  }
+  &__btn {
+    @include button;
+  }
+  &__item:nth-child(2) {
+    flex-direction: row-reverse;
+  }
+}
