@@ -317,7 +317,6 @@ svg {
   text-transform: uppercase;
   color: #000000;
   mix-blend-mode: normal;
-  opacity: 0.7;
 }
 .katalog__link:hover {
   font-family: "Manrope";
@@ -329,6 +328,261 @@ svg {
   text-transform: uppercase;
   color: #d87d4a;
   opacity: 1;
+}
+
+.product__back {
+  display: inline-block;
+  margin: 76px 0 56px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.product__item {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 120px;
+       column-gap: 120px;
+}
+.product__img {
+  width: 50%;
+  background: #f1f1f1;
+  border-radius: 8px;
+  text-align: center;
+  padding: 65px 95px;
+}
+.product__logo {
+  width: 350px;
+  height: 386px;
+}
+.product__content {
+  width: 50%;
+}
+.product__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: #d87d4a;
+}
+.product__header {
+  width: 80%;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  margin-top: 16px;
+  letter-spacing: 1.42857px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.product__subtext {
+  width: 80%;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin: 32px 0 40px;
+}
+.product__money {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 47px;
+}
+.product__cards {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.product__card {
+  width: 120px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #f1f1f1;
+  cursor: pointer;
+}
+.product__numer {
+  width: 16px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+.product__numer:hover {
+  color: #d87d4a;
+  opacity: 1;
+}
+.product__numbers {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.product__btn {
+  width: 160px;
+  padding: 16px 29px;
+  background: #d87d4a;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+.product__btn:hover {
+  background: #fbaf85;
+}
+.product__item:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.features {
+  margin-top: 160px;
+  margin-bottom: 160px;
+  display: flex;
+  -moz-column-gap: 125px;
+       column-gap: 125px;
+}
+.features__content {
+  width: 57%;
+}
+.features__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 1.14286px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 32px;
+}
+.features__text {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.features__subtext {
+  margin-right: 24px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 167% */
+  color: #d87d4a;
+}
+
+.img {
+  margin: 190px 165px 0px;
+}
+.img__menu {
+  display: flex;
+  list-style: none;
+  gap: -20px;
+}
+.img__img {
+  margin-bottom: 32px;
+}
+.img__title {
+  margin-left: -50px;
+}
+.img__picture {
+  margin-right: 80px;
+}
+
+.price {
+  margin-top: 160px;
+}
+.price__title {
+  margin-bottom: 64px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 1.14286px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+.price__list {
+  display: flex;
+}
+.price__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 35px;
+}
+.price__images {
+  width: 90%;
+  padding: 62px 100px;
+  background: #f1f1f1;
+  border-radius: 8px;
+  text-align: center;
+}
+.price__img {
+  width: 100%;
+}
+.price__img1 {
+  width: 85%;
+}
+.price__img2 {
+  width: 70%;
+}
+.price__img--page1 {
+  width: 95%;
+}
+.price__img--page2 {
+  width: 75%;
+}
+.price__img--page3 {
+  width: 100%;
+}
+.price__subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 1.71429px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.price__button {
+  width: 160px;
+  padding: 16px 29px;
+  background: #d87d4a;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+.price__button:hover {
+  background: #fbaf85;
 }
 
 .header {
