@@ -1,0 +1,119 @@
+.product {
+  margin-top: 160px;
+  &__zx9 {
+    border-radius: 8px;
+    display: flex;
+    background: #d87d4a;
+    flex-direction: row-reverse;
+    column-gap: 140px;
+  }
+  &__zx7 {
+    margin-top: 50px;
+    border-radius: 8px;
+    height: 320px;
+    background-image: url("../img/hero__zx7__speaker.png");
+  }
+  &__yx1 {
+    display: flex;
+    column-gap: 30px;
+    margin-top: 50px;
+    border-radius: 8px;
+  }
+}
+.yx1 {
+  &__content {
+    width: 540px;
+    background: #f1f1f1;
+    border-radius: 8px;
+  }
+  &__title {
+    margin-left: 95px;
+    margin-top: 100px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    color: #000000;
+  }
+  &__link {
+    margin-left: 95px;
+    @include lighter__button;
+  }
+  &__img {
+    border-radius: 8px;
+  }
+}
+.zx7 {
+  &__title {
+    padding-top: 100px;
+    margin-left: 95px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    color: #000000;
+  }
+  &__link {
+    margin-left: 95px;
+    @include lighter__button;
+  }
+}
+.zx9 {
+  &__contnet {
+    margin-right: 100px;
+    width: 349px;
+  }
+  &__title {
+    margin-top: 133px;
+    margin-right: 100px;
+    margin-bottom: 24px;
+    width: 349px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 58px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  &__text {
+    margin-right: 100px;
+    width: 349px;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    margin-bottom: 40px;
+  }
+  &__link {
+    padding: 15px 30px;
+    background: #000000;
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+    &:hover {
+      background: #4c4c4c;
+    }
+  }
+  &__bgimg {
+    margin-top: 100px;
+  }
+}
