@@ -1,0 +1,130 @@
+.product {
+  &__back {
+    display: inline-block;
+    margin: 76px 0 56px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    column-gap: 120px;
+  }
+  &__img {
+    width: 50%;
+    background: #f1f1f1;
+    border-radius: 8px;
+    text-align: center;
+    padding: 65px 95px;
+  }
+  &__logo {
+    width: 350px;
+    height: 386px;
+  }
+  &__content {
+    width: 50%;
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+
+    color: #d87d4a;
+  }
+  &__header {
+    width: 80%;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 16px;
+
+    letter-spacing: 1.42857px;
+    text-transform: uppercase;
+
+    color: #000000;
+  }
+  &__subtext {
+    width: 80%;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+
+    margin: 32px 0 40px;
+  }
+  &__money {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+
+    letter-spacing: 1.28571px;
+    text-transform: uppercase;
+
+    color: #000000;
+    margin-bottom: 47px;
+  }
+  &__cards {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  &__card {
+    width: 120px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #f1f1f1;
+    cursor: pointer;
+  }
+  &__numer {
+    width: 16px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    &:hover {
+      color: #d87d4a;
+      opacity: 1;
+    }
+  }
+
+  &__numbers {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #000000;
+  }
+  &__btn {
+    @include button;
+  }
+  &__item:nth-child(2) {
+    flex-direction: row-reverse;
+  }
+}

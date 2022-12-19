@@ -1,0 +1,18 @@
+.img {
+  margin: 190px 165px 0px;
+
+  &__menu {
+    display: flex;
+    list-style: none;
+    gap: -20px;
+  }
+  &__img {
+    margin-bottom: 32px;
+  }
+  &__title {
+    margin-left: -50px;
+  }
+  &__picture {
+    margin-right: 80px;
+  }
+}
