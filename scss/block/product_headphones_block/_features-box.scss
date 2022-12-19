@@ -1,0 +1,39 @@
+.features {
+  margin-top: 160px;
+  margin-bottom: 160px;
+  display: flex;
+  column-gap: 125px;
+  &__content {
+    width: 57%;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+
+    letter-spacing: 1.14286px;
+    text-transform: uppercase;
+
+    color: #000000;
+    margin-bottom: 32px;
+  }
+  &__text {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  &__subtext {
+    margin-right: 24px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+
+    color: #d87d4a;
+  }
+}
